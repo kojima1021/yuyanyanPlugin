@@ -1,0 +1,4 @@
+name: YuyanyanPlugin
+version: 1.0.0
+main: net.mcmmorpg.admin.yuyananplugin.Main
+database: false
