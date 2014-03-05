@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 /**
  * SpawnとSetSpawnの実装
- * @author kojima1021
+ * @author kojima1021 and misterT2525
  */
 public class spawn implements CommandExecutor {
 
