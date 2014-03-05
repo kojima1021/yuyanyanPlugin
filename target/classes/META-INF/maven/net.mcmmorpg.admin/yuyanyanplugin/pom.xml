@@ -4,7 +4,7 @@
 
   <groupId>net.mcmmorpg.admin</groupId>
   <artifactId>yuyanyanplugin</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-Dev</version>
   <packaging>jar</packaging>
 
   <name>yuyanyanplugin</name>

@@ -23,6 +23,13 @@ public class Main extends JavaPlugin implements Listener{
     public void onEnable() {
         //初期設定完了
         getLogger().info("Ver.1.0.0");
+        //リスナー登録
+        getServer().getPluginManager().registerEvents(this, this);
+        //インスタンス設定
+        instance = this;
+        //コマンド登録
+        getCommand("spawn").setExecutor(new spawn());
+        getCommand("setspawn").setExecutor(new spawn());
     }
     //Pluginun終了時
     @Override

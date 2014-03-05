@@ -1,4 +1,15 @@
 name: YuyanyanPlugin
 version: 1.0.0
-main: net.mcmmorpg.admin.yuyananplugin.Main
+main: net.mcmmorpg.admin.yuyanyanplugin.Main
 database: false
+commands:
+   spawn:
+      description: コマンドでSpawnにもどるコマンドです。
+      usage: /spawn
+      permision: yuyanyan.user.spawn
+      permision-message: You don't have yuyanyan.user.spawn
+   setspawn:
+      description: コマンドでSpawnSetするコマンドです。。
+      usage: /setspawn
+      permision: yuyanyan.admin.setspawn
+      permision-message: You don't have yuyanyan.admin.setspawn
