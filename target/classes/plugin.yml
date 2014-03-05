@@ -2,6 +2,7 @@ name: YuyanyanPlugin
 version: 1.0.0
 main: net.mcmmorpg.admin.yuyanyanplugin.Main
 database: false
+authors: [kojima1021, mrT_japan]
 commands:
    spawn:
       description: コマンドでSpawnにもどるコマンドです。
